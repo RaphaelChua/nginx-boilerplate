@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'cd test-application && yarn install'
+        sh 'cd C:\\Windows\\System32\\config\\systemprofile\\AppData\\Local\\Jenkins.jenkins\\workspace\\nginx_development_main\\test-application && yarn install'
       }
     }
 
