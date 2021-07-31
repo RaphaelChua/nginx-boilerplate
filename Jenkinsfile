@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('Publish') {
+      steps {
+        bat 'cd test-application && yarn build'
+      }
+    }
+
   }
 }
