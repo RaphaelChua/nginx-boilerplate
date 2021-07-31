@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build React Files') {
       steps {
-        echo 'test'
+        sh 'cd C:\\Users\\Raphael\\Documents\\jenkins\\nginx\\test-application && yarn install'
       }
     }
 
