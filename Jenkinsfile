@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Build React Files') {
+    stage('Checkout') {
       steps {
-        sh 'cd C:\\Users\\Raphael\\Documents\\jenkins\\nginx\\test-application && yarn install'
+        dir(path: 'C:\\Users\\Raphael\\Documents\\jenkins\\nginx')
       }
     }
 
