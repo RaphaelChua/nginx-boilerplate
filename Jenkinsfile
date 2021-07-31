@@ -9,7 +9,7 @@ pipeline {
 
     stage('Test') {
       steps {
-        bat 'yarn test'
+        bat 'cd test-application && yarn test'
       }
     }
 
